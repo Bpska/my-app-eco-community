@@ -6,7 +6,7 @@ import {
   ScrollView,
   SafeAreaView,
 } from 'react-native';
-import { useImpactStore } from '../../store/impactStore';
+import { useImpactStore } from '../store/impactStore';
 import { Ionicons } from '@expo/vector-icons';
 
 export default function ImpactScreen() {

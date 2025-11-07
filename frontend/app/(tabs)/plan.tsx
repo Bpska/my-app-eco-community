@@ -11,8 +11,8 @@ import {
   Platform,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useTripStore } from '../../store/tripStore';
-import { useImpactStore } from '../../store/impactStore';
+import { useTripStore } from '../store/tripStore';
+import { useImpactStore } from '../store/impactStore';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { format } from 'date-fns';
 

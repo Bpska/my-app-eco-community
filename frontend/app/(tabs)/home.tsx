@@ -8,8 +8,8 @@ import {
   SafeAreaView,
 } from 'react-native';
 import { useRouter } from 'expo-router';
-import { useAuthStore } from '../../store/authStore';
-import { useImpactStore } from '../../store/impactStore';
+import { useAuthStore } from '../store/authStore';
+import { useImpactStore } from '../store/impactStore';
 import { Ionicons } from '@expo/vector-icons';
 
 export default function HomeScreen() {
