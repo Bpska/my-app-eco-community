@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, ActivityIndicator } from 'react-native';
 import { useRouter } from 'expo-router';
-import { useAuthStore } from '../store/authStore';
+import { useAuthStore } from './store/authStore';
 
 export default function Index() {
   const router = useRouter();
